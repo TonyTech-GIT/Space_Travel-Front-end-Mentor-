@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceTravel Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body class="home-page">
+    <!-- home page start -->
+
+    <!-- header section start -->
+    <section class="header">
+      <img class="logo" src="images/shared/logo.svg" alt="logo-pic" />
+      <div class="line"></div>
+
+      <!-- id set to a tag, so we can target the img tag here -->
+      <a href="#" id="open-btn" class="open-btn" onclick="openBtn()"
+        ><img src="images/shared/icon-hamburger.svg" alt="open-icon"
+      /></a>
+
+      <nav id="navbar-links" class="navbar-links">
+        <a href="index.html"><span class="num">00</span> HOME</a>
+        <a href="destination.html"><span class="num">01</span> DESTINATION</a>
+        <a href="crew.html"><span class="num">02</span> CREW</a>
+        <a href="technology.html"><span class="num">03</span> TECHNOLOGY</a>
+      </nav>
+
+      <!-- Id set directly to img tag, so no need to target the img tag -->
+      <a href="#" class="close-btn" onclick="closeBtn()">
+        <img
+          id="close-btn"
+          src="images/shared/icon-close.svg"
+          alt="close-icon"
+        />
+      </a>
+    </section>
+
+    <!-- header section end -->
+
+    <!-- body section start -->
+    <section class="content">
+      <div class="text-content">
+        <h2 class="h2-homepage">SO, YOU WANT TO TRAVEL TO</h2>
+        <h1 id="homepage-header">SPACE</h1>
+        <p>
+          Let's face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we'll give a truly out of this world
+          experience!
+        </p>
+      </div>
+      <div class="explore">EXPLORE</div>
+    </section>
+
+    <!-- home page end -->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- body section end -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- Duplicate comments for other code files cleared for simplicity -->
+<!-- Takes some time to push these to github -->
